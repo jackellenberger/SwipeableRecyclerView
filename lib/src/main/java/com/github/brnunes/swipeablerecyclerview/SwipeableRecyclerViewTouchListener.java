@@ -325,9 +325,9 @@ public class SwipeableRecyclerViewTouchListener implements RecyclerView.OnItemTo
                     }
 
                     if (mFinalDelta > 0) {
-                        mSwipeListener.onDismissedBySwipeLeft(mRecyclerView, dismissPositions);
-                    } else {
                         mSwipeListener.onDismissedBySwipeRight(mRecyclerView, dismissPositions);
+                    } else {
+                        mSwipeListener.onDismissedBySwipeLeft(mRecyclerView, dismissPositions);
                     }
 
                     // Reset mDownPosition to avoid MotionEvent.ACTION_UP trying to start a dismiss
