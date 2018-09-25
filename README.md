@@ -1,3 +1,13 @@
+# SwipeableRecyclerView
+
+This project is is a recylcerview with the ability to swipe away cards - plus, the ability to _swipe between side by side views_. This means you can essentially have two lists and the ability to easily swipe cards between then.
+
+For example, see the following demo app:
+
+[![SwipeableRecyclerView](https://img.youtube.com/vi/PauO8R2hBkY/0.jpg)](https://youtu.be/PauO8R2hBkY?t=18)
+
+# Original README
+
 Android SwipeableRecyclerView
 =====================
 
